@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1296" height="5" viewBox="0 0 1296 5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fdbb8a;
+        stroke-linecap: round;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <title>timeline</title>
+  <g id="Calque_2" data-name="Calque 2">
+    <g id="Calque_2-2" data-name="Calque 2">
+      <line class="cls-1" x1="2.5" y1="2.5" x2="1293.5" y2="2.5"/>
+    </g>
+  </g>
+</svg>
