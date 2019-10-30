@@ -1,5 +1,5 @@
 main {
-    background-color: #dddddd;
+    background-color: grey;
     height: auto;
     padding-top: 100px;
     padding-bottom: 200px;
@@ -34,13 +34,13 @@ main {
     -webkit-perspective: 1000px;
     perspective: 1000px;
     height: 500px;
-}
-
-.carousel-item-gb.active,
-.carousel-item-gb-next,
-.carousel-item-gb-prev {
+  }
+  
+  .carousel-item-gb.active,
+  .carousel-item-gb-next,
+  .carousel-item-gb-prev {
     display: block;
-}
+  }
 
 .carousel-info {
     display: flex;
@@ -65,7 +65,7 @@ main {
 
 }
 
-.carousel-paragraphe {
+.carousel-paragraphe{
     position: absolute;
     right: 15%;
     bottom: 30px;
@@ -74,7 +74,7 @@ main {
     margin-bottom: 0;
 }
 
-.actualite-btn {
+.actualite-btn{
     border-radius: 20px;
     background-color: orangered;
     border: none;
@@ -86,7 +86,7 @@ main {
 
 @media screen and (max-width: 900px) {
 
-    .imgFooter {
+    .imgFooter{
         margin-left: -260px;
         margin-bottom: 150px;
     }
@@ -94,7 +94,7 @@ main {
     .carousel-item-gb {
 
         height: 700px;
-    }
+      }
 
     .carousel-info {
         display: flex;
@@ -108,7 +108,7 @@ main {
         z-index: 10;
         text-align: center;
     }
-
+    
     .carousel-h5 {
         position: absolute;
         right: 15%;
@@ -116,17 +116,19 @@ main {
         left: 15%;
         color: orangered;
         font-size: 2rem;
-
+    
     }
-
-    .carousel-paragraphe {
+    
+    .carousel-paragraphe{
         position: absolute;
         right: 15%;
         top: -100px;
         left: 15%;
         color: black;
         margin-bottom: 0;
-
+    
     }
-
+    
 }
+    
+    
