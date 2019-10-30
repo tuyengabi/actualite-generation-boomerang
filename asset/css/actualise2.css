@@ -84,7 +84,7 @@ main {
     font-weight: bold;
 }
 
-@media (max-width: 414px) {
+@media screen and (max-width: 900px) {
 
     .imgFooter {
         margin-left: -260px;
