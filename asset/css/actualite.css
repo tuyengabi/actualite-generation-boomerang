@@ -10,6 +10,8 @@ main {
     margin-bottom: 40px;
 }
 
+
+
 .actualise-img {
     display: block;
     margin: auto;
@@ -82,53 +84,7 @@ main {
     font-weight: bold;
 }
 
-@media screen and ((min-width: 901px) and (max-width: 1000px)) {
-
-    .imgFooter {
-        margin-left: -260px;
-        margin-bottom: 150px;
-    }
-
-    .carousel-item-gb {
-        height: 600px;
-    }
-
-    .carousel-info {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 100px;
-        position: absolute;
-        right: 15%;
-        bottom: -70px;
-        left: 15%;
-        z-index: 10;
-        text-align: center;
-    }
-
-    .carousel-h5 {
-        position: absolute;
-        right: 15%;
-        top: -170px;
-        left: 15%;
-        color: #ff6c00;
-        font-size: 2rem;
-
-    }
-
-    .carousel-paragraphe {
-        position: absolute;
-        right: 15%;
-        top: -100px;
-        left: 15%;
-        color: black;
-        margin-bottom: 0;
-
-    }
-
-}
-
-@media screen and ((min-width: 0px) and (max-width: 900px)) {
+@media screen and (max-width: 900px) {
 
     .imgFooter {
         margin-left: -260px;
@@ -137,7 +93,7 @@ main {
 
     .carousel-item-gb {
 
-        height: 680px;
+        height: 700px;
     }
 
     .carousel-info {
@@ -158,7 +114,7 @@ main {
         right: 15%;
         top: -170px;
         left: 15%;
-        color: #ff6c00;
+        color: orangered;
         font-size: 2rem;
 
     }
